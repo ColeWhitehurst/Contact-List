@@ -1,0 +1,15 @@
+body {
+    display: flex;
+  }
+  
+  div#root {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  
+  td {
+    gap: 3px;
+    padding: 2px;
+    display: flex;
+    flex-flow: row wrap;
+  }

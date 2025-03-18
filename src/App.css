@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+body.selected {
+  display: flex;
+}
+
+div#root.selected {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+td.selected {
+  gap: 3px;
+  padding: 2px;
+  display: flex;
+  flex-flow: row wrap;
+}
